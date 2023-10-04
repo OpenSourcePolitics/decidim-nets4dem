@@ -27,6 +27,9 @@ gem "decidim-spam_detection"
 gem "decidim-survey_multiple_answers"
 gem "decidim-term_customizer", git: "https://github.com/armandfardeau/decidim-module-term_customizer.git", branch: "fix/precompile-on-docker-0.26"
 
+# Custom - External Decidim gems
+gem "decidim-calendar", git: "https://github.com/alabs/decidim-module-calendar"
+
 # Omniauth gems
 gem "omniauth-france_connect", git: "https://github.com/OpenSourcePolitics/omniauth-france_connect"
 gem "omniauth-publik", git: "https://github.com/OpenSourcePolitics/omniauth-publik"
